@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5) 
+project(HELLO) 
+#add_subdirectory(libhello) 
+add_subdirectory(src)
+message(${HELLO_SOURCE_DIR}) 
+message(${HELLO_BINARY_DIR})
